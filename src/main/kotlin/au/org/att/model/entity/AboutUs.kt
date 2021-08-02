@@ -11,10 +11,7 @@ data class AboutUs(
     var aboutText: String? = "",
 
     @Lob
-    var image: ByteArray?,
-
-    @Column(length = 64)
-var imageUrl: String? = ""
+    var image: ByteArray?
 ) {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
